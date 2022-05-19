@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block ForChildContent %}
+<html><head>
+    <title>Journey To Turkey</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'Pages/css/StP.css'%}" ></head>
+<body>
+<h1 class="A">My journey to Turkey</h1>
+<!-- Carousel wrapper -->
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="{% static 'Pages\img\istockphoto-1212098562-170667a.jpg' %}"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hagia Sophia (Aya Sofya) Mosque</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="{% static 'Pages\img\lxvESW.jpg' %}"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ephesus</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="{% static 'Pages\img\photo-1591448764624-d7973a442bff.jpg' %}"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cappadocia</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-inner py-4">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img
+                    src="{% static 'Pages\img\istanbul-turkey-bosphorus-orient.jpg' %}"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Topkapi</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="{% static 'Pages\img\alanya-night-kızılkule-landscape.jpg' %}"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Antalya </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="{% static 'Pages\img\tram-taksim-square-city-taksim.jpg' %}"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Taksim</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+              
+</body></html>
+
+
+
+{% endblock %}
+

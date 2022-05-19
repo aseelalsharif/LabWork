@@ -1,0 +1,46 @@
+
+    {% extends 'base.html' %}
+      {% block ForChildContent %}
+    <html><head>
+        <!--I take it from w3school-->
+
+       <title>Contact Us</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'Pages/css/StP.css'%}" >
+      
+    </head>
+    <body>
+      
+
+        
+
+        <h1 class="A">Contact Us</h2>
+       <h2 class="Contacth"> For suggestions & Questions </h2>
+       <p class="Contacth">If you need help Contact us</p>
+       <div>
+<form id="Contact" action= "{% url 'Contact' %}"method='post'>{% csrf_token %}
+
+<!--prevent atack the website-->
+    
+
+        <label>Frist Name</label> <input type="text" id="FristName" name='Fname' >
+     
+
+       <label>Last Name</label><input type="text" id="LastName" name='Lname' >
+       
+
+       <label>Email</label><input type="text" id="email" name='email'>
+       
+
+      <label>Subject</label> <input type="text" id="subject" name='subject'>
+       
+
+       <label>Your Message</label><textarea type="text" id="Message" name='message' rows="4" ></textarea>
+       
+    </form>
+</div>
+<div>
+    <button onclick = "document.getElementById('Contact').submit();">Send</button>
+</div>
+</body></html>
+{% endblock %}

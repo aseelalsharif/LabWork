@@ -1,0 +1,48 @@
+<!--here for make the design the same of the base the extends do that-->
+{% extends 'base.html' %}
+
+
+{% block ForChildContent %}
+<!--I take it from bootstrap-->
+<html lang="en">
+  <head>    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+
+    <title>Home page</title>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'Pages/css/StP.css'%}" >
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    
+  </head>
+
+  <body>
+
+
+
+      <div class="col-md-6 p-lg-5 mx-auto my-5">    
+          
+          
+        <h1 class="display-4 font-weight-normal" id="Hello">Hello beautiful viewers</h1>
+        <script src="{% static 'Pages\js\ClockG.js' %}"></script>
+            <div class ="divimgH">
+          <img src="{% static 'Pages\img\original.jpg' %}" width="100">
+        <img src="{% static 'Pages\img\original.png' %}" width="100">
+        <img src="{% static 'Pages/img/istockphoto-1294454411-170667a.jpg' %}" width ="100" > 
+        </div><p class="lead font-weight-normal" id="pHome">If you want to travel to any City this blog about travel & suggestions place.</p>
+    
+        <h2 id="demo1"></h2></div>
+  </body>
+{% endblock %}
+</html>
