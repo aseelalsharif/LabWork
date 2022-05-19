@@ -1,0 +1,85 @@
+body{
+    background-color: #eeeeee;
+}
+
+#Hello{
+    color:#d2d7d3;
+    text-transform: uppercase;
+    text-align:center;
+}
+#pHome{
+    color:#cec3c8;
+    text-align:left; 
+}
+.divimgH{
+    text-align: center;
+    border: 1px solid black;
+   
+}
+h1.A{
+    
+     color:#d2d7d3;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 2px  rgb(119, 110, 110);
+}
+div.B{
+   color:#cec3c8;
+    text-align:center; 
+    text-shadow: 1px 1px 1px  rgb(119, 110, 110);
+    border:1px solid #cec3c8;
+   
+}
+#divBlog{
+    background-color: #cec3c8;
+}
+#divBlog1{
+    background-color:#f4efef; 
+}
+#TDT{
+    color:#a0849d;
+}
+h2.Contacth{
+    color:#cec3c8;
+    text-align:center;
+    text-shadow: 1px 1px 2px  rgb(119, 110, 110);
+}
+p.Contacth{
+    color:#cec3c8;
+    text-align:center;  
+}
+.Contact{
+    font-size:120%;
+    color:#5a5854;
+    background-color:#ffffff;
+    border:1px solid #bdbdbd;
+    border-radius: 5px;
+    padding:10px 800px 10px 30px;
+}
+label{
+    font-family: "Times New Roman", Times, serif;
+    color:rgb(127, 127, 138);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
